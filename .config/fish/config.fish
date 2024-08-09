@@ -4,10 +4,12 @@ if status is-interactive
 
     # 检查 Fisher 是否已安装
     if not functions -q fisher
-        # curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
-        curl -sL https://git.io/fisher | source
-        if test -f ~/.config/fish/fish_plugins
-            fisher update
-        end
+        curl -sL https://git.io/fisher | source && fisher update
     end
+
+    # fisher plugins setting
+    # ======== fzf.fish ========
+    set fzf_directory_opts --bind "ctrl-o:execute($EDITOR {} &> /dev/tty)"
+    set fzf_preview_dir_cmd eza --all --color=always
+    # ==========================
 end
