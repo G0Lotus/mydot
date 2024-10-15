@@ -1,0 +1,16 @@
+[user]
+	name  = "Kun.HK.Huang"
+	email = "kun.hk.huang@deltaww.com"
+
+[alias]
+  co   = "checkout"
+  cob  = "checkout -b"
+  pl   = "pull --prune"
+  ps   = "push"
+  psu  = "push -u origin"
+  br   = "branch"
+  bra  = "branch"
+  ct   = "commit"
+  cta  = "commit --amend"
+  ctan = "commit --amend --no-edit"
+  fp   = "format-patch"
