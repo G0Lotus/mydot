@@ -1,0 +1,7 @@
+set mouse-scroll = 3
+set commit-order = auto
+set ignore-space = no
+set show-notes   = yes
+
+source ~/.config/tig/misc.tigrc
+source ~/.config/tig/view.tigrc

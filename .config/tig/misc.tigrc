@@ -1,0 +1,16 @@
+# Misc
+set refresh-mode                = auto
+set refresh-interval            = 10
+set ignore-case                 = yes
+set wrap-search                 = yes
+set focus-child                 = yes
+set horizontal-scroll           = 50%
+set split-view-height           = 80%
+set vertical-split              = horizontal
+set split-view-width            = 50%
+set editor-line-number          = yes
+set mouse                       = no
+set show-changes                = yes
+set show-untracked              = yes
+set status-show-untracked-dirs  = yes
+set status-show-untracked-files = yes
