@@ -3,6 +3,7 @@ return {
   opts = {
     formatters_by_ft = {
       c = { "astyle" },
+      cpp = { "astyle" },
     },
     formatters = {
       astyle = {
