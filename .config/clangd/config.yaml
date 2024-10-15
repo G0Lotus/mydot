@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -I/home/hkkk/project/acmax/gen5/buildroot.git/staging_dir/target-arm_cortex-a8+vfpv3_musl_eabi/usr/include
+    - -ferror-limit=0
+  Remove:
+    - -fhonour-copts
+    - -fconserve-stack
+    - -fno-allow-store-data-races
+    - -mindirect-branch-register
+    - -mindirect-branch=thunk-extern
+    - -mpreferred-stack-boundary=3
